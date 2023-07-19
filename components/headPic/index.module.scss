@@ -1,0 +1,109 @@
+.headBanner{
+        position: relative;
+        height: 240px;
+        overflow: hidden;
+        .banner{
+            width: 100%;
+            img{
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            &:nth-child(1){
+                img{
+                    height: 240px;
+                }
+            }
+            &:nth-child(2){
+                width: 1100px;
+                height: auto;
+                bottom: -40px;
+                position: absolute;
+                left:calc(100vw / 2 - 550px);
+            }
+            &:nth-child(3){
+                top: 10px;
+                position: absolute;
+            }
+            &:nth-child(4){
+                width: 200px;
+                height: auto;
+                top: 70px;
+                position: absolute;
+                left: calc(100vw / 2 - 160px);
+            }
+            &:nth-child(5){
+                width: 1328px;
+                height: auto;
+                top: -20px;
+                position: absolute;
+                left: calc(100vw / 2 - 1328px / 2);
+            }
+            &:nth-child(6){
+                width: 1340px;
+                height: auto;
+                position: absolute;
+                left: calc(100vw / 2 - 1340px / 2);
+                top: 10px;
+                opacity: 0.5;
+            }
+            &:nth-child(7){
+                width: 1368px;
+                height: auto;
+                position: absolute;
+                left: calc(100vw / 2 - 1368px / 2);
+                bottom: -40px;
+            }
+            &:nth-child(8){
+                width: 1823px;
+                height: auto;
+                position: absolute;
+                left: 160px;
+                bottom: -10px;
+            }
+            &:nth-child(9){
+                width: 1653px;
+                height: auto;
+                position: absolute;
+                left: calc(100vw / 2 - 1653px / 2);
+                top: 0;
+            }
+            &:nth-child(10){
+                width: 1464px;
+                height: auto;
+                position: absolute;
+                right: 10px;
+                top: -10px;
+            }
+            &:nth-child(11){
+                width: 280px;
+                height: auto;
+                position: absolute;
+                right: 460px;
+                top: 50px;
+            }
+            &:nth-child(12){
+                width: calc(100vw + 1000px);
+                height: auto;
+                position: absolute;
+                top: 0;
+                left: -590px;
+            }
+            &:nth-child(13){
+                width: 1737px;
+                height: 240px;
+                height: auto;
+                position: absolute;
+                top: 0;
+                left: calc(100vw / 2 - 1737px / 2);
+                opacity: 0.4;
+            }
+            &:nth-child(14){
+                width: 1677px;
+                height: auto;
+                position: absolute;
+                top: 40px;
+                left: calc(100vw / 2 - 1677px / 2);
+            }
+        }
+}

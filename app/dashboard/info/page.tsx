@@ -1,3 +1,3 @@
 export default function Hello(){
-    return <h3>HELLO</h3>
+    return <h3>INFO</h3>
 }
