@@ -12,7 +12,7 @@ const Navbar:NextPage = ()=>{
         <div className={style.navbarBox}>
             <div className={style.navbarLink}>
                 <section className={style.logArea}>
-                    <img src='https://www.futureplusmedia.com/assets/img/logos/LOGO_bilibili.png' alt="logo" />
+                    <img src='/head/4.webp' alt="logo" />
                 </section>
                 <section className={style.navbarItem}>
                     {
